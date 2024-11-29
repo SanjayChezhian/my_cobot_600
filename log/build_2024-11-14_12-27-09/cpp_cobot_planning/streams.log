@@ -1,0 +1,25 @@
+[0.018s] Invoking command in '/home/sanjay/Desktop/cobot600/build/cpp_cobot_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sanjay/ws_moveit2/install/moveit_configs_utils:/home/sanjay/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/sanjay/Desktop/cobot600/build/cpp_cobot_planning -- -j22 -l22
+[0.117s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_cobot_planning.dir/src/cpp_cobot_planning.cpp.o[0m
+[7.757s] [100%] [32m[1mLinking CXX executable cpp_cobot_planning[0m
+[8.098s] [100%] Built target cpp_cobot_planning
+[8.112s] Invoked command in '/home/sanjay/Desktop/cobot600/build/cpp_cobot_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sanjay/ws_moveit2/install/moveit_configs_utils:/home/sanjay/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/sanjay/Desktop/cobot600/build/cpp_cobot_planning -- -j22 -l22
+[8.158s] Invoking command in '/home/sanjay/Desktop/cobot600/build/cpp_cobot_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sanjay/ws_moveit2/install/moveit_configs_utils:/home/sanjay/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/sanjay/Desktop/cobot600/build/cpp_cobot_planning
+[8.171s] -- Install configuration: ""
+[8.172s] -- Execute custom install script
+[8.172s] -- Up-to-date symlink: /home/sanjay/Desktop/cobot600/install/cpp_cobot_planning/lib/cpp_cobot_planning/cpp_cobot_planning
+[8.172s] -- Up-to-date symlink: /home/sanjay/Desktop/cobot600/install/cpp_cobot_planning/share/ament_index/resource_index/package_run_dependencies/cpp_cobot_planning
+[8.173s] -- Up-to-date symlink: /home/sanjay/Desktop/cobot600/install/cpp_cobot_planning/share/ament_index/resource_index/parent_prefix_path/cpp_cobot_planning
+[8.173s] -- Up-to-date symlink: /home/sanjay/Desktop/cobot600/install/cpp_cobot_planning/share/cpp_cobot_planning/environment/ament_prefix_path.sh
+[8.173s] -- Up-to-date symlink: /home/sanjay/Desktop/cobot600/install/cpp_cobot_planning/share/cpp_cobot_planning/environment/ament_prefix_path.dsv
+[8.173s] -- Up-to-date symlink: /home/sanjay/Desktop/cobot600/install/cpp_cobot_planning/share/cpp_cobot_planning/environment/path.sh
+[8.173s] -- Up-to-date symlink: /home/sanjay/Desktop/cobot600/install/cpp_cobot_planning/share/cpp_cobot_planning/environment/path.dsv
+[8.174s] -- Up-to-date symlink: /home/sanjay/Desktop/cobot600/install/cpp_cobot_planning/share/cpp_cobot_planning/local_setup.bash
+[8.174s] -- Up-to-date symlink: /home/sanjay/Desktop/cobot600/install/cpp_cobot_planning/share/cpp_cobot_planning/local_setup.sh
+[8.174s] -- Up-to-date symlink: /home/sanjay/Desktop/cobot600/install/cpp_cobot_planning/share/cpp_cobot_planning/local_setup.zsh
+[8.174s] -- Up-to-date symlink: /home/sanjay/Desktop/cobot600/install/cpp_cobot_planning/share/cpp_cobot_planning/local_setup.dsv
+[8.174s] -- Symlinking: /home/sanjay/Desktop/cobot600/install/cpp_cobot_planning/share/cpp_cobot_planning/package.dsv
+[8.188s] -- Up-to-date symlink: /home/sanjay/Desktop/cobot600/install/cpp_cobot_planning/share/ament_index/resource_index/packages/cpp_cobot_planning
+[8.188s] -- Up-to-date symlink: /home/sanjay/Desktop/cobot600/install/cpp_cobot_planning/share/cpp_cobot_planning/cmake/cpp_cobot_planningConfig.cmake
+[8.188s] -- Up-to-date symlink: /home/sanjay/Desktop/cobot600/install/cpp_cobot_planning/share/cpp_cobot_planning/cmake/cpp_cobot_planningConfig-version.cmake
+[8.188s] -- Up-to-date symlink: /home/sanjay/Desktop/cobot600/install/cpp_cobot_planning/share/cpp_cobot_planning/package.xml
+[8.191s] Invoked command in '/home/sanjay/Desktop/cobot600/build/cpp_cobot_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sanjay/ws_moveit2/install/moveit_configs_utils:/home/sanjay/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/sanjay/Desktop/cobot600/build/cpp_cobot_planning

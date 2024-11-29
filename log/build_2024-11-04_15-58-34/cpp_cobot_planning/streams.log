@@ -1,0 +1,76 @@
+[0.017s] Invoking command in '/home/sanjay/Desktop/cobot600/build/cpp_cobot_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sanjay/ws_moveit2/install/moveit_configs_utils:/home/sanjay/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/sanjay/Desktop/cobot600/src/cpp_cobot_planning -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sanjay/Desktop/cobot600/install/cpp_cobot_planning
+[0.094s] -- The C compiler identification is GNU 11.4.0
+[0.168s] -- The CXX compiler identification is GNU 11.4.0
+[0.178s] -- Detecting C compiler ABI info
+[0.280s] -- Detecting C compiler ABI info - done
+[0.290s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.290s] -- Detecting C compile features
+[0.291s] -- Detecting C compile features - done
+[0.294s] -- Detecting CXX compiler ABI info
+[0.409s] -- Detecting CXX compiler ABI info - done
+[0.418s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.419s] -- Detecting CXX compile features
+[0.419s] -- Detecting CXX compile features - done
+[0.426s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.631s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.697s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.772s] -- Found moveit_ros_planning_interface: 2.5.5 (/home/sanjay/ws_moveit2/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake)
+[1.059s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[1.138s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.159s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.176s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.200s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.232s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.519s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.613s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.709s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.720s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.883s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.922s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.989s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.012s] -- Found Threads: TRUE  
+[2.086s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.094s] -- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[2.139s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[2.299s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.355s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.581s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[2.619s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[2.649s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[2.693s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.807s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.807s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/sanjay/Desktop/cobot600/src/cpp_cobot_planning/include>
+[2.807s] -- Configured cppcheck exclude dirs and/or files: 
+[2.808s] -- Added test 'lint_cmake' to check CMake code style
+[2.809s] -- Added test 'uncrustify' to check C / C++ code style
+[2.810s] -- Configured uncrustify additional arguments: 
+[2.811s] -- Added test 'xmllint' to check XML markup files
+[2.813s] -- Configuring done
+[2.845s] -- Generating done
+[2.847s] -- Build files have been written to: /home/sanjay/Desktop/cobot600/build/cpp_cobot_planning
+[2.862s] Invoked command in '/home/sanjay/Desktop/cobot600/build/cpp_cobot_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sanjay/ws_moveit2/install/moveit_configs_utils:/home/sanjay/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/sanjay/Desktop/cobot600/src/cpp_cobot_planning -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sanjay/Desktop/cobot600/install/cpp_cobot_planning
+[2.865s] Invoking command in '/home/sanjay/Desktop/cobot600/build/cpp_cobot_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sanjay/ws_moveit2/install/moveit_configs_utils:/home/sanjay/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/sanjay/Desktop/cobot600/build/cpp_cobot_planning -- -j22 -l22
+[2.945s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_cobot_planning.dir/src/cpp_cobot_planning.cpp.o[0m
+[10.948s] [100%] [32m[1mLinking CXX executable cpp_cobot_planning[0m
+[11.834s] [100%] Built target cpp_cobot_planning
+[11.848s] Invoked command in '/home/sanjay/Desktop/cobot600/build/cpp_cobot_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sanjay/ws_moveit2/install/moveit_configs_utils:/home/sanjay/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/sanjay/Desktop/cobot600/build/cpp_cobot_planning -- -j22 -l22
+[11.897s] Invoking command in '/home/sanjay/Desktop/cobot600/build/cpp_cobot_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sanjay/ws_moveit2/install/moveit_configs_utils:/home/sanjay/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/sanjay/Desktop/cobot600/build/cpp_cobot_planning
+[11.909s] -- Install configuration: ""
+[11.909s] -- Execute custom install script
+[11.910s] -- Symlinking: /home/sanjay/Desktop/cobot600/install/cpp_cobot_planning/lib/cpp_cobot_planning/cpp_cobot_planning
+[11.922s] -- Symlinking: /home/sanjay/Desktop/cobot600/install/cpp_cobot_planning/share/ament_index/resource_index/package_run_dependencies/cpp_cobot_planning
+[11.933s] -- Symlinking: /home/sanjay/Desktop/cobot600/install/cpp_cobot_planning/share/ament_index/resource_index/parent_prefix_path/cpp_cobot_planning
+[11.946s] -- Symlinking: /home/sanjay/Desktop/cobot600/install/cpp_cobot_planning/share/cpp_cobot_planning/environment/ament_prefix_path.sh
+[11.959s] -- Symlinking: /home/sanjay/Desktop/cobot600/install/cpp_cobot_planning/share/cpp_cobot_planning/environment/ament_prefix_path.dsv
+[11.971s] -- Symlinking: /home/sanjay/Desktop/cobot600/install/cpp_cobot_planning/share/cpp_cobot_planning/environment/path.sh
+[11.984s] -- Symlinking: /home/sanjay/Desktop/cobot600/install/cpp_cobot_planning/share/cpp_cobot_planning/environment/path.dsv
+[11.998s] -- Symlinking: /home/sanjay/Desktop/cobot600/install/cpp_cobot_planning/share/cpp_cobot_planning/local_setup.bash
+[12.010s] -- Symlinking: /home/sanjay/Desktop/cobot600/install/cpp_cobot_planning/share/cpp_cobot_planning/local_setup.sh
+[12.023s] -- Symlinking: /home/sanjay/Desktop/cobot600/install/cpp_cobot_planning/share/cpp_cobot_planning/local_setup.zsh
+[12.035s] -- Symlinking: /home/sanjay/Desktop/cobot600/install/cpp_cobot_planning/share/cpp_cobot_planning/local_setup.dsv
+[12.048s] -- Symlinking: /home/sanjay/Desktop/cobot600/install/cpp_cobot_planning/share/cpp_cobot_planning/package.dsv
+[12.061s] -- Symlinking: /home/sanjay/Desktop/cobot600/install/cpp_cobot_planning/share/ament_index/resource_index/packages/cpp_cobot_planning
+[12.074s] -- Symlinking: /home/sanjay/Desktop/cobot600/install/cpp_cobot_planning/share/cpp_cobot_planning/cmake/cpp_cobot_planningConfig.cmake
+[12.087s] -- Symlinking: /home/sanjay/Desktop/cobot600/install/cpp_cobot_planning/share/cpp_cobot_planning/cmake/cpp_cobot_planningConfig-version.cmake
+[12.100s] -- Symlinking: /home/sanjay/Desktop/cobot600/install/cpp_cobot_planning/share/cpp_cobot_planning/package.xml
+[12.115s] Invoked command in '/home/sanjay/Desktop/cobot600/build/cpp_cobot_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sanjay/ws_moveit2/install/moveit_configs_utils:/home/sanjay/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/sanjay/Desktop/cobot600/build/cpp_cobot_planning

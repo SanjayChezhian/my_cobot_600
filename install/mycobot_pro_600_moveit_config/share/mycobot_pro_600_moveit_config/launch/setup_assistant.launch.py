@@ -1,0 +1,1 @@
+/home/sanjay/Desktop/cobot600/src/mycobot_pro_600_moveit_config/launch/setup_assistant.launch.py

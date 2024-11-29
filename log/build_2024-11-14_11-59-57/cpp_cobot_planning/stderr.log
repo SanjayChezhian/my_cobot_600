@@ -1,0 +1,7 @@
+[01m[K/home/sanjay/Desktop/cobot600/src/cpp_cobot_planning/src/cpp_cobot_planning.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/sanjay/Desktop/cobot600/src/cpp_cobot_planning/src/cpp_cobot_planning.cpp:66:14:[m[K [01;31m[Kerror: [m[Kcannot decompose non-array non-class type ‘[01m[Kconst double[m[K’
+   66 |   auto const [01;31m[K[success, fraction][m[K = move_group_interface.computeCartesianPath(
+      |              [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/cpp_cobot_planning.dir/build.make:76: CMakeFiles/cpp_cobot_planning.dir/src/cpp_cobot_planning.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cpp_cobot_planning.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

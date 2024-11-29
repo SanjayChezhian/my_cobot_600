@@ -1,0 +1,1 @@
+/home/sanjay/Desktop/cobot600/build/cpp_cobot_planning/ament_cmake_environment_hooks/local_setup.bash

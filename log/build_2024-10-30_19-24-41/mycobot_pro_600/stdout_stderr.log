@@ -1,0 +1,27 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/config/mycobot_600.rviz
+-- Up-to-date symlink: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/launch/cobot_pro.launch.py
+-- Up-to-date symlink: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/urdf/base.dae
+-- Up-to-date symlink: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/urdf/link1.dae
+-- Up-to-date symlink: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/urdf/link2.dae
+-- Up-to-date symlink: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/urdf/link3.dae
+-- Up-to-date symlink: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/urdf/link4.dae
+-- Up-to-date symlink: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/urdf/link5.dae
+-- Up-to-date symlink: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/urdf/link6.dae
+-- Up-to-date symlink: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/urdf/mycobot_pro_600.urdf
+-- Up-to-date symlink: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/ament_index/resource_index/package_run_dependencies/mycobot_pro_600
+-- Up-to-date symlink: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/ament_index/resource_index/parent_prefix_path/mycobot_pro_600
+-- Up-to-date symlink: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/environment/path.sh
+-- Up-to-date symlink: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/environment/path.dsv
+-- Up-to-date symlink: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/local_setup.bash
+-- Up-to-date symlink: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/local_setup.sh
+-- Up-to-date symlink: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/local_setup.zsh
+-- Up-to-date symlink: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/local_setup.dsv
+-- Symlinking: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/package.dsv
+-- Up-to-date symlink: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/ament_index/resource_index/packages/mycobot_pro_600
+-- Up-to-date symlink: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/cmake/mycobot_pro_600Config.cmake
+-- Up-to-date symlink: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/cmake/mycobot_pro_600Config-version.cmake
+-- Up-to-date symlink: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/package.xml

@@ -1,0 +1,11 @@
+[0.019s] Invoking command in '/home/sanjay/Desktop/cobot600/build/cpp_cobot_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sanjay/ws_moveit2/install/moveit_configs_utils:/home/sanjay/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/sanjay/Desktop/cobot600/build/cpp_cobot_planning -- -j22 -l22
+[0.089s] [35m[1mConsolidate compiler generated dependencies of target cpp_cobot_planning[0m
+[0.122s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_cobot_planning.dir/src/cpp_cobot_planning.cpp.o[0m
+[4.819s] [01m[K/home/sanjay/Desktop/cobot600/src/cpp_cobot_planning/src/cpp_cobot_planning.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[4.820s] [01m[K/home/sanjay/Desktop/cobot600/src/cpp_cobot_planning/src/cpp_cobot_planning.cpp:66:14:[m[K [01;31m[Kerror: [m[Kcannot decompose non-array non-class type ‘[01m[Kconst double[m[K’
+[4.820s]    66 |   auto const [01;31m[K[success, fraction][m[K = move_group_interface.computeCartesianPath(
+[4.820s]       |              [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[7.637s] gmake[2]: *** [CMakeFiles/cpp_cobot_planning.dir/build.make:76: CMakeFiles/cpp_cobot_planning.dir/src/cpp_cobot_planning.cpp.o] Error 1
+[7.637s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cpp_cobot_planning.dir/all] Error 2
+[7.637s] gmake: *** [Makefile:146: all] Error 2
+[7.642s] Invoked command in '/home/sanjay/Desktop/cobot600/build/cpp_cobot_planning' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sanjay/ws_moveit2/install/moveit_configs_utils:/home/sanjay/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/sanjay/Desktop/cobot600/build/cpp_cobot_planning -- -j22 -l22

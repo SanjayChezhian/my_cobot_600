@@ -1,0 +1,42 @@
+[0.019s] Invoking command in '/home/sanjay/Desktop/cobot600/build/mycobot_pro_600': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sanjay/ws_moveit2/install/moveit_configs_utils:/home/sanjay/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/sanjay/Desktop/cobot600/src/mycobot_pro_600 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sanjay/Desktop/cobot600/install/mycobot_pro_600
+[0.057s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.230s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.249s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.343s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.345s] -- Added test 'lint_cmake' to check CMake code style
+[0.346s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.349s] -- Added test 'xmllint' to check XML markup files
+[0.351s] -- Configuring done
+[0.355s] -- Generating done
+[0.356s] -- Build files have been written to: /home/sanjay/Desktop/cobot600/build/mycobot_pro_600
+[0.360s] Invoked command in '/home/sanjay/Desktop/cobot600/build/mycobot_pro_600' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sanjay/ws_moveit2/install/moveit_configs_utils:/home/sanjay/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/sanjay/Desktop/cobot600/src/mycobot_pro_600 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sanjay/Desktop/cobot600/install/mycobot_pro_600
+[0.362s] Invoking command in '/home/sanjay/Desktop/cobot600/build/mycobot_pro_600': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sanjay/ws_moveit2/install/moveit_configs_utils:/home/sanjay/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/sanjay/Desktop/cobot600/build/mycobot_pro_600 -- -j22 -l22
+[0.420s] Invoked command in '/home/sanjay/Desktop/cobot600/build/mycobot_pro_600' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sanjay/ws_moveit2/install/moveit_configs_utils:/home/sanjay/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/sanjay/Desktop/cobot600/build/mycobot_pro_600 -- -j22 -l22
+[0.475s] Invoking command in '/home/sanjay/Desktop/cobot600/build/mycobot_pro_600': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sanjay/ws_moveit2/install/moveit_configs_utils:/home/sanjay/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/sanjay/Desktop/cobot600/build/mycobot_pro_600
+[0.487s] -- Install configuration: ""
+[0.488s] -- Execute custom install script
+[0.488s] -- Symlinking: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/launch/cobot_pro.launch.py
+[0.501s] -- Symlinking: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/urdf/base.dae
+[0.515s] -- Symlinking: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/urdf/link1.dae
+[0.530s] -- Symlinking: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/urdf/link2.dae
+[0.543s] -- Symlinking: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/urdf/link3.dae
+[0.557s] -- Symlinking: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/urdf/link4.dae
+[0.571s] -- Symlinking: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/urdf/link5.dae
+[0.584s] -- Symlinking: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/urdf/link6.dae
+[0.597s] -- Symlinking: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/urdf/mycobot_pro_600.urdf
+[0.612s] -- Symlinking: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/ament_index/resource_index/package_run_dependencies/mycobot_pro_600
+[0.625s] -- Symlinking: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/ament_index/resource_index/parent_prefix_path/mycobot_pro_600
+[0.638s] -- Symlinking: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/environment/ament_prefix_path.sh
+[0.651s] -- Symlinking: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/environment/ament_prefix_path.dsv
+[0.664s] -- Symlinking: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/environment/path.sh
+[0.676s] -- Symlinking: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/environment/path.dsv
+[0.689s] -- Symlinking: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/local_setup.bash
+[0.702s] -- Symlinking: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/local_setup.sh
+[0.717s] -- Symlinking: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/local_setup.zsh
+[0.730s] -- Symlinking: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/local_setup.dsv
+[0.744s] -- Symlinking: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/package.dsv
+[0.757s] -- Symlinking: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/ament_index/resource_index/packages/mycobot_pro_600
+[0.772s] -- Symlinking: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/cmake/mycobot_pro_600Config.cmake
+[0.785s] -- Symlinking: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/cmake/mycobot_pro_600Config-version.cmake
+[0.799s] -- Symlinking: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/package.xml
+[0.816s] Invoked command in '/home/sanjay/Desktop/cobot600/build/mycobot_pro_600' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sanjay/ws_moveit2/install/moveit_configs_utils:/home/sanjay/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/sanjay/Desktop/cobot600/build/mycobot_pro_600
