@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-fbb819bbf6681df05c35.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cpp_cobot_planning",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_cobot_planning::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_cobot_planning-788a438ae9b24db19e45.json",
+					"name" : "cpp_cobot_planning",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_cobot_planning_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_cobot_planning_uninstall-cae0d54a68deb369fd5d.json",
+					"name" : "cpp_cobot_planning_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "move_waypoints::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-move_waypoints-720d17db14889931f0f3.json",
+					"name" : "move_waypoints",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "read_joint_states::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-read_joint_states-95e2c346c423984d4dd1.json",
+					"name" : "read_joint_states",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-4b86f6b34e48f7b57a2c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/sanjay/Desktop/cobot600/build/cpp_cobot_planning",
+		"source" : "/home/sanjay/Desktop/cobot600/src/cpp_cobot_planning"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

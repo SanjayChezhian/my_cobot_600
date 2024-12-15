@@ -27,7 +27,7 @@ def send_tcp_packet(server_ip, server_port, message):
 
 if __name__ == "__main__":
     # Replace with the correct IP and port
-    SERVER_IP = "192.168.1.159"
+    SERVER_IP = "10.165.93.105"
     SERVER_PORT = 5001
     MESSAGE = "set_angles(38, -125, -122, -24, 90, -52, 500)"
 

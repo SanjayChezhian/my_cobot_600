@@ -1,6 +1,8 @@
 /home/sanjay/Desktop/cobot600/build/cpp_cobot_planning/CMakeFiles/uninstall.dir
 /home/sanjay/Desktop/cobot600/build/cpp_cobot_planning/CMakeFiles/cpp_cobot_planning_uninstall.dir
 /home/sanjay/Desktop/cobot600/build/cpp_cobot_planning/CMakeFiles/cpp_cobot_planning.dir
+/home/sanjay/Desktop/cobot600/build/cpp_cobot_planning/CMakeFiles/move_waypoints.dir
+/home/sanjay/Desktop/cobot600/build/cpp_cobot_planning/CMakeFiles/read_joint_states.dir
 /home/sanjay/Desktop/cobot600/build/cpp_cobot_planning/CMakeFiles/test.dir
 /home/sanjay/Desktop/cobot600/build/cpp_cobot_planning/CMakeFiles/edit_cache.dir
 /home/sanjay/Desktop/cobot600/build/cpp_cobot_planning/CMakeFiles/rebuild_cache.dir

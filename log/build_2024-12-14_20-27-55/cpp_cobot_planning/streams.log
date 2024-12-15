@@ -1,0 +1,93 @@
+[0.016s] Invoking command in '/home/sanjay/Desktop/cobot600/build/cpp_cobot_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sanjay/ws_moveit2/install/moveit_configs_utils:/home/sanjay/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/sanjay/Desktop/cobot600/src/cpp_cobot_planning -DCMAKE_INSTALL_PREFIX=/home/sanjay/Desktop/cobot600/install/cpp_cobot_planning
+[0.121s] -- The C compiler identification is GNU 11.4.0
+[0.196s] -- The CXX compiler identification is GNU 11.4.0
+[0.207s] -- Detecting C compiler ABI info
+[0.313s] -- Detecting C compiler ABI info - done
+[0.322s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.323s] -- Detecting C compile features
+[0.323s] -- Detecting C compile features - done
+[0.327s] -- Detecting CXX compiler ABI info
+[0.446s] -- Detecting CXX compiler ABI info - done
+[0.455s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.455s] -- Detecting CXX compile features
+[0.456s] -- Detecting CXX compile features - done
+[0.464s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.674s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.819s] -- Found moveit_ros_planning_interface: 2.5.5 (/home/sanjay/ws_moveit2/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake)
+[1.093s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[1.176s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.187s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.202s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.223s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.251s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.519s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.603s] -- Found parameter_traits: 0.3.9 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.689s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.696s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.843s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.882s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.947s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.968s] -- Found Threads: TRUE  
+[2.031s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.036s] -- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[2.070s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[2.224s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.276s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.498s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[2.535s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[2.563s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[2.611s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.720s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.720s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/sanjay/Desktop/cobot600/src/cpp_cobot_planning/include>
+[2.720s] -- Configured cppcheck exclude dirs and/or files: 
+[2.722s] -- Added test 'lint_cmake' to check CMake code style
+[2.726s] -- Added test 'uncrustify' to check C / C++ code style
+[2.726s] -- Configured uncrustify additional arguments: 
+[2.727s] -- Added test 'xmllint' to check XML markup files
+[2.730s] -- Configuring done
+[2.793s] -- Generating done
+[2.810s] -- Build files have been written to: /home/sanjay/Desktop/cobot600/build/cpp_cobot_planning
+[2.830s] Invoked command in '/home/sanjay/Desktop/cobot600/build/cpp_cobot_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sanjay/ws_moveit2/install/moveit_configs_utils:/home/sanjay/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/sanjay/Desktop/cobot600/src/cpp_cobot_planning -DCMAKE_INSTALL_PREFIX=/home/sanjay/Desktop/cobot600/install/cpp_cobot_planning
+[2.830s] Invoking command in '/home/sanjay/Desktop/cobot600/build/cpp_cobot_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sanjay/ws_moveit2/install/moveit_configs_utils:/home/sanjay/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/sanjay/Desktop/cobot600/build/cpp_cobot_planning -- -j22 -l22
+[2.913s] [ 50%] [32mBuilding CXX object CMakeFiles/move_waypoints.dir/src/moving_to_waypoints.cpp.o[0m
+[2.913s] [ 50%] [32mBuilding CXX object CMakeFiles/read_joint_states.dir/src/reading_jointstates.cpp.o[0m
+[2.913s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_cobot_planning.dir/src/cpp_cobot_planning.cpp.o[0m
+[8.168s] [01m[K/home/sanjay/Desktop/cobot600/src/cpp_cobot_planning/src/moving_to_waypoints.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[8.168s] [01m[K/home/sanjay/Desktop/cobot600/src/cpp_cobot_planning/src/moving_to_waypoints.cpp:96:107:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[8.168s]    96 |         bool plan_success = (move_group.plan(motion_plan) == moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K);
+[8.168s]       |                                                                                                           [01;35m[K^~~~~~~[m[K
+[8.168s] In file included from [01m[K/home/sanjay/Desktop/cobot600/src/cpp_cobot_planning/src/moving_to_waypoints.cpp:8[m[K:
+[8.168s] [01m[K/home/sanjay/ws_moveit2/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+[8.168s]    71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+[8.168s]       |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[11.436s] [ 66%] [32m[1mLinking CXX executable cpp_cobot_planning[0m
+[11.820s] [ 66%] Built target cpp_cobot_planning
+[13.367s] [ 83%] [32m[1mLinking CXX executable move_waypoints[0m
+[13.829s] [ 83%] Built target move_waypoints
+[19.435s] [100%] [32m[1mLinking CXX executable read_joint_states[0m
+[20.428s] [100%] Built target read_joint_states
+[20.443s] Invoked command in '/home/sanjay/Desktop/cobot600/build/cpp_cobot_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sanjay/ws_moveit2/install/moveit_configs_utils:/home/sanjay/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/sanjay/Desktop/cobot600/build/cpp_cobot_planning -- -j22 -l22
+[20.444s] Invoking command in '/home/sanjay/Desktop/cobot600/build/cpp_cobot_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sanjay/ws_moveit2/install/moveit_configs_utils:/home/sanjay/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/sanjay/Desktop/cobot600/build/cpp_cobot_planning
+[20.456s] -- Install configuration: ""
+[20.456s] -- Installing: /home/sanjay/Desktop/cobot600/install/cpp_cobot_planning/lib/cpp_cobot_planning/cpp_cobot_planning
+[20.457s] -- Set runtime path of "/home/sanjay/Desktop/cobot600/install/cpp_cobot_planning/lib/cpp_cobot_planning/cpp_cobot_planning" to ""
+[20.457s] -- Installing: /home/sanjay/Desktop/cobot600/install/cpp_cobot_planning/lib/cpp_cobot_planning/move_waypoints
+[20.458s] -- Set runtime path of "/home/sanjay/Desktop/cobot600/install/cpp_cobot_planning/lib/cpp_cobot_planning/move_waypoints" to ""
+[20.458s] -- Installing: /home/sanjay/Desktop/cobot600/install/cpp_cobot_planning/lib/cpp_cobot_planning/read_joint_states
+[20.462s] -- Set runtime path of "/home/sanjay/Desktop/cobot600/install/cpp_cobot_planning/lib/cpp_cobot_planning/read_joint_states" to ""
+[20.462s] -- Installing: /home/sanjay/Desktop/cobot600/install/cpp_cobot_planning/share/ament_index/resource_index/package_run_dependencies/cpp_cobot_planning
+[20.462s] -- Installing: /home/sanjay/Desktop/cobot600/install/cpp_cobot_planning/share/ament_index/resource_index/parent_prefix_path/cpp_cobot_planning
+[20.462s] -- Installing: /home/sanjay/Desktop/cobot600/install/cpp_cobot_planning/share/cpp_cobot_planning/environment/ament_prefix_path.sh
+[20.462s] -- Installing: /home/sanjay/Desktop/cobot600/install/cpp_cobot_planning/share/cpp_cobot_planning/environment/ament_prefix_path.dsv
+[20.462s] -- Installing: /home/sanjay/Desktop/cobot600/install/cpp_cobot_planning/share/cpp_cobot_planning/environment/path.sh
+[20.462s] -- Installing: /home/sanjay/Desktop/cobot600/install/cpp_cobot_planning/share/cpp_cobot_planning/environment/path.dsv
+[20.462s] -- Installing: /home/sanjay/Desktop/cobot600/install/cpp_cobot_planning/share/cpp_cobot_planning/local_setup.bash
+[20.463s] -- Installing: /home/sanjay/Desktop/cobot600/install/cpp_cobot_planning/share/cpp_cobot_planning/local_setup.sh
+[20.463s] -- Installing: /home/sanjay/Desktop/cobot600/install/cpp_cobot_planning/share/cpp_cobot_planning/local_setup.zsh
+[20.463s] -- Installing: /home/sanjay/Desktop/cobot600/install/cpp_cobot_planning/share/cpp_cobot_planning/local_setup.dsv
+[20.463s] -- Installing: /home/sanjay/Desktop/cobot600/install/cpp_cobot_planning/share/cpp_cobot_planning/package.dsv
+[20.463s] -- Installing: /home/sanjay/Desktop/cobot600/install/cpp_cobot_planning/share/ament_index/resource_index/packages/cpp_cobot_planning
+[20.463s] -- Installing: /home/sanjay/Desktop/cobot600/install/cpp_cobot_planning/share/cpp_cobot_planning/cmake/cpp_cobot_planningConfig.cmake
+[20.463s] -- Installing: /home/sanjay/Desktop/cobot600/install/cpp_cobot_planning/share/cpp_cobot_planning/cmake/cpp_cobot_planningConfig-version.cmake
+[20.463s] -- Installing: /home/sanjay/Desktop/cobot600/install/cpp_cobot_planning/share/cpp_cobot_planning/package.xml
+[20.465s] Invoked command in '/home/sanjay/Desktop/cobot600/build/cpp_cobot_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sanjay/ws_moveit2/install/moveit_configs_utils:/home/sanjay/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/sanjay/Desktop/cobot600/build/cpp_cobot_planning

@@ -1,1 +1,7 @@
-/home/sanjay/Desktop/cobot600/src/mycobot_pro_600_moveit_config/launch/spawn_controllers.launch.py
+from moveit_configs_utils import MoveItConfigsBuilder
+from moveit_configs_utils.launches import generate_spawn_controllers_launch
+
+
+def generate_launch_description():
+    moveit_config = MoveItConfigsBuilder("mycobot_pro_600", package_name="mycobot_pro_600_moveit_config").to_moveit_configs()
+    return generate_spawn_controllers_launch(moveit_config)

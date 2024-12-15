@@ -210,6 +210,32 @@ cpp_cobot_planning/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_cobot_planning.dir/build.make CMakeFiles/cpp_cobot_planning.dir/build
 .PHONY : cpp_cobot_planning/fast
 
+#=============================================================================
+# Target rules for targets named move_waypoints
+
+# Build rule for target.
+move_waypoints: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 move_waypoints
+.PHONY : move_waypoints
+
+# fast build rule for target.
+move_waypoints/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_waypoints.dir/build.make CMakeFiles/move_waypoints.dir/build
+.PHONY : move_waypoints/fast
+
+#=============================================================================
+# Target rules for targets named read_joint_states
+
+# Build rule for target.
+read_joint_states: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 read_joint_states
+.PHONY : read_joint_states
+
+# fast build rule for target.
+read_joint_states/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/read_joint_states.dir/build.make CMakeFiles/read_joint_states.dir/build
+.PHONY : read_joint_states/fast
+
 src/cpp_cobot_planning.o: src/cpp_cobot_planning.cpp.o
 .PHONY : src/cpp_cobot_planning.o
 
@@ -234,6 +260,54 @@ src/cpp_cobot_planning.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_cobot_planning.dir/build.make CMakeFiles/cpp_cobot_planning.dir/src/cpp_cobot_planning.cpp.s
 .PHONY : src/cpp_cobot_planning.cpp.s
 
+src/moving_to_waypoints.o: src/moving_to_waypoints.cpp.o
+.PHONY : src/moving_to_waypoints.o
+
+# target to build an object file
+src/moving_to_waypoints.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_waypoints.dir/build.make CMakeFiles/move_waypoints.dir/src/moving_to_waypoints.cpp.o
+.PHONY : src/moving_to_waypoints.cpp.o
+
+src/moving_to_waypoints.i: src/moving_to_waypoints.cpp.i
+.PHONY : src/moving_to_waypoints.i
+
+# target to preprocess a source file
+src/moving_to_waypoints.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_waypoints.dir/build.make CMakeFiles/move_waypoints.dir/src/moving_to_waypoints.cpp.i
+.PHONY : src/moving_to_waypoints.cpp.i
+
+src/moving_to_waypoints.s: src/moving_to_waypoints.cpp.s
+.PHONY : src/moving_to_waypoints.s
+
+# target to generate assembly for a file
+src/moving_to_waypoints.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_waypoints.dir/build.make CMakeFiles/move_waypoints.dir/src/moving_to_waypoints.cpp.s
+.PHONY : src/moving_to_waypoints.cpp.s
+
+src/reading_jointstates.o: src/reading_jointstates.cpp.o
+.PHONY : src/reading_jointstates.o
+
+# target to build an object file
+src/reading_jointstates.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/read_joint_states.dir/build.make CMakeFiles/read_joint_states.dir/src/reading_jointstates.cpp.o
+.PHONY : src/reading_jointstates.cpp.o
+
+src/reading_jointstates.i: src/reading_jointstates.cpp.i
+.PHONY : src/reading_jointstates.i
+
+# target to preprocess a source file
+src/reading_jointstates.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/read_joint_states.dir/build.make CMakeFiles/read_joint_states.dir/src/reading_jointstates.cpp.i
+.PHONY : src/reading_jointstates.cpp.i
+
+src/reading_jointstates.s: src/reading_jointstates.cpp.s
+.PHONY : src/reading_jointstates.s
+
+# target to generate assembly for a file
+src/reading_jointstates.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/read_joint_states.dir/build.make CMakeFiles/read_joint_states.dir/src/reading_jointstates.cpp.s
+.PHONY : src/reading_jointstates.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -250,9 +324,17 @@ help:
 	@echo "... cpp_cobot_planning_uninstall"
 	@echo "... uninstall"
 	@echo "... cpp_cobot_planning"
+	@echo "... move_waypoints"
+	@echo "... read_joint_states"
 	@echo "... src/cpp_cobot_planning.o"
 	@echo "... src/cpp_cobot_planning.i"
 	@echo "... src/cpp_cobot_planning.s"
+	@echo "... src/moving_to_waypoints.o"
+	@echo "... src/moving_to_waypoints.i"
+	@echo "... src/moving_to_waypoints.s"
+	@echo "... src/reading_jointstates.o"
+	@echo "... src/reading_jointstates.i"
+	@echo "... src/reading_jointstates.s"
 .PHONY : help
 
 
