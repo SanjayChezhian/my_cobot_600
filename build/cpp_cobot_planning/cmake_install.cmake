@@ -63,41 +63,41 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cpp_cobot_planning/move_waypoints" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cpp_cobot_planning/move_waypoints")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cpp_cobot_planning/generating_waypoints" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cpp_cobot_planning/generating_waypoints")
     file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cpp_cobot_planning/move_waypoints"
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cpp_cobot_planning/generating_waypoints"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cpp_cobot_planning" TYPE EXECUTABLE FILES "/home/sanjay/Desktop/cobot600/build/cpp_cobot_planning/move_waypoints")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cpp_cobot_planning/move_waypoints" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cpp_cobot_planning/move_waypoints")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cpp_cobot_planning" TYPE EXECUTABLE FILES "/home/sanjay/Desktop/cobot600/build/cpp_cobot_planning/generating_waypoints")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cpp_cobot_planning/generating_waypoints" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cpp_cobot_planning/generating_waypoints")
     file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cpp_cobot_planning/move_waypoints"
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cpp_cobot_planning/generating_waypoints"
          OLD_RPATH "/home/sanjay/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/sanjay/ws_moveit2/install/moveit_ros_move_group/lib:/opt/ros/humble/lib:/home/sanjay/ws_moveit2/install/moveit_ros_warehouse/lib:/home/sanjay/ws_moveit2/install/moveit_ros_planning/lib:/home/sanjay/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/sanjay/ws_moveit2/install/moveit_core/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/home/sanjay/ws_moveit2/install/srdfdom/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cpp_cobot_planning/move_waypoints")
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cpp_cobot_planning/generating_waypoints")
     endif()
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cpp_cobot_planning/read_joint_states" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cpp_cobot_planning/read_joint_states")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cpp_cobot_planning/reading_joint_states" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cpp_cobot_planning/reading_joint_states")
     file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cpp_cobot_planning/read_joint_states"
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cpp_cobot_planning/reading_joint_states"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cpp_cobot_planning" TYPE EXECUTABLE FILES "/home/sanjay/Desktop/cobot600/build/cpp_cobot_planning/read_joint_states")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cpp_cobot_planning/read_joint_states" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cpp_cobot_planning/read_joint_states")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cpp_cobot_planning" TYPE EXECUTABLE FILES "/home/sanjay/Desktop/cobot600/build/cpp_cobot_planning/reading_joint_states")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cpp_cobot_planning/reading_joint_states" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cpp_cobot_planning/reading_joint_states")
     file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cpp_cobot_planning/read_joint_states"
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cpp_cobot_planning/reading_joint_states"
          OLD_RPATH "/home/sanjay/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/sanjay/ws_moveit2/install/moveit_ros_move_group/lib:/opt/ros/humble/lib:/home/sanjay/ws_moveit2/install/moveit_ros_warehouse/lib:/home/sanjay/ws_moveit2/install/moveit_ros_planning/lib:/home/sanjay/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/sanjay/ws_moveit2/install/moveit_core/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/home/sanjay/ws_moveit2/install/srdfdom/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cpp_cobot_planning/read_joint_states")
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cpp_cobot_planning/reading_joint_states")
     endif()
   endif()
 endif()

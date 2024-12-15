@@ -1,8 +1,0 @@
-[01m[K/home/sanjay/Desktop/cobot600/src/cpp_cobot_planning/src/moving_to_waypoints.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
-[01m[K/home/sanjay/Desktop/cobot600/src/cpp_cobot_planning/src/moving_to_waypoints.cpp:96:107:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
-   96 |         bool plan_success = (move_group.plan(motion_plan) == moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K);
-      |                                                                                                           [01;35m[K^~~~~~~[m[K
-In file included from [01m[K/home/sanjay/Desktop/cobot600/src/cpp_cobot_planning/src/moving_to_waypoints.cpp:8[m[K:
-[01m[K/home/sanjay/ws_moveit2/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
-   71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
-      |       [01;36m[K^~~~~~~~~~~~~~~[m[K

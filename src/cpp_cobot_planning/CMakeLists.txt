@@ -21,31 +21,31 @@ ament_target_dependencies(
   "rclcpp"
 )
 
-add_executable(move_waypoints src/move_waypoints.cpp)
-target_include_directories(move_waypoints PUBLIC
+add_executable(generating_waypoints src/generating_waypoints.cpp)
+target_include_directories(generating_waypoints PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<INSTALL_INTERFACE:include>)
-target_compile_features(move_waypoints PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
+target_compile_features(generating_waypoints PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
 ament_target_dependencies(
-  move_waypoints
+  generating_waypoints
   "moveit_ros_planning_interface"
   "rclcpp"
 )
 
-add_executable(read_joint_states src/read_jointstates.cpp)
-target_include_directories(read_joint_states PUBLIC
+add_executable(reading_joint_states src/reading_jointstates.cpp)
+target_include_directories(reading_joint_states PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<INSTALL_INTERFACE:include>)
 
-target_compile_features(read_joint_states PUBLIC c_std_99 cxx_std_17)
+target_compile_features(reading_joint_states PUBLIC c_std_99 cxx_std_17)
 ament_target_dependencies(
-  read_joint_states
+  reading_joint_states
   "moveit_ros_planning_interface"
   "rclcpp"
   "sensor_msgs"
 )
 
-install(TARGETS cpp_cobot_planning move_waypoints read_joint_states
+install(TARGETS cpp_cobot_planning generating_waypoints reading_joint_states
   DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)

@@ -1,0 +1,58 @@
+[0.021s] Invoking command in '/home/sanjay/Desktop/cobot600/build/mycobot_pro_600': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sanjay/ws_moveit2/install/moveit_configs_utils:/home/sanjay/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/sanjay/Desktop/cobot600/src/mycobot_pro_600 -DCMAKE_INSTALL_PREFIX=/home/sanjay/Desktop/cobot600/install/mycobot_pro_600
+[0.106s] -- The C compiler identification is GNU 11.4.0
+[0.181s] -- The CXX compiler identification is GNU 11.4.0
+[0.191s] -- Detecting C compiler ABI info
+[0.294s] -- Detecting C compiler ABI info - done
+[0.304s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.304s] -- Detecting C compile features
+[0.305s] -- Detecting C compile features - done
+[0.308s] -- Detecting CXX compiler ABI info
+[0.425s] -- Detecting CXX compiler ABI info - done
+[0.435s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.436s] -- Detecting CXX compile features
+[0.436s] -- Detecting CXX compile features - done
+[0.443s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.652s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.788s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.892s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.893s] -- Added test 'lint_cmake' to check CMake code style
+[0.894s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.896s] -- Added test 'xmllint' to check XML markup files
+[0.898s] -- Configuring done
+[0.900s] -- Generating done
+[0.902s] -- Build files have been written to: /home/sanjay/Desktop/cobot600/build/mycobot_pro_600
+[0.910s] Invoked command in '/home/sanjay/Desktop/cobot600/build/mycobot_pro_600' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sanjay/ws_moveit2/install/moveit_configs_utils:/home/sanjay/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/sanjay/Desktop/cobot600/src/mycobot_pro_600 -DCMAKE_INSTALL_PREFIX=/home/sanjay/Desktop/cobot600/install/mycobot_pro_600
+[0.911s] Invoking command in '/home/sanjay/Desktop/cobot600/build/mycobot_pro_600': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sanjay/ws_moveit2/install/moveit_configs_utils:/home/sanjay/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/sanjay/Desktop/cobot600/build/mycobot_pro_600 -- -j22 -l22
+[0.970s] Invoked command in '/home/sanjay/Desktop/cobot600/build/mycobot_pro_600' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sanjay/ws_moveit2/install/moveit_configs_utils:/home/sanjay/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/sanjay/Desktop/cobot600/build/mycobot_pro_600 -- -j22 -l22
+[0.982s] Invoking command in '/home/sanjay/Desktop/cobot600/build/mycobot_pro_600': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sanjay/ws_moveit2/install/moveit_configs_utils:/home/sanjay/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/sanjay/Desktop/cobot600/build/mycobot_pro_600
+[0.991s] -- Install configuration: ""
+[0.991s] -- Installing: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/config
+[0.991s] -- Installing: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/config/mycobot_600.rviz
+[0.991s] -- Installing: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/launch
+[0.991s] -- Installing: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/launch/cobot_pro.launch.py
+[0.991s] -- Installing: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/urdf
+[0.991s] -- Installing: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/urdf/base.dae
+[0.995s] -- Installing: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/urdf/mycobot_pro_600.urdf
+[0.996s] -- Installing: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/urdf/link5.dae
+[1.000s] -- Installing: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/urdf/link3.dae
+[1.005s] -- Installing: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/urdf/link4.dae
+[1.009s] -- Installing: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/urdf/suit_env_v2.dae
+[1.017s] -- Installing: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/urdf/link6.dae
+[1.019s] -- Installing: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/urdf/link1.dae
+[1.021s] -- Installing: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/urdf/link2.dae
+[1.027s] -- Installing: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/ament_index/resource_index/package_run_dependencies/mycobot_pro_600
+[1.027s] -- Installing: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/ament_index/resource_index/parent_prefix_path/mycobot_pro_600
+[1.027s] -- Installing: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/environment/ament_prefix_path.sh
+[1.027s] -- Installing: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/environment/ament_prefix_path.dsv
+[1.027s] -- Installing: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/environment/path.sh
+[1.027s] -- Installing: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/environment/path.dsv
+[1.027s] -- Installing: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/local_setup.bash
+[1.027s] -- Installing: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/local_setup.sh
+[1.027s] -- Installing: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/local_setup.zsh
+[1.027s] -- Installing: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/local_setup.dsv
+[1.027s] -- Installing: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/package.dsv
+[1.028s] -- Installing: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/ament_index/resource_index/packages/mycobot_pro_600
+[1.028s] -- Installing: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/cmake/mycobot_pro_600Config.cmake
+[1.028s] -- Installing: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/cmake/mycobot_pro_600Config-version.cmake
+[1.028s] -- Installing: /home/sanjay/Desktop/cobot600/install/mycobot_pro_600/share/mycobot_pro_600/package.xml
+[1.031s] Invoked command in '/home/sanjay/Desktop/cobot600/build/mycobot_pro_600' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sanjay/ws_moveit2/install/moveit_configs_utils:/home/sanjay/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/sanjay/Desktop/cobot600/build/mycobot_pro_600

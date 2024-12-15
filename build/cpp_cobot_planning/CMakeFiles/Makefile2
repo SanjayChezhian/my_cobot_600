@@ -64,8 +64,8 @@ CMAKE_BINARY_DIR = /home/sanjay/Desktop/cobot600/build/cpp_cobot_planning
 
 # The main recursive "all" target.
 all: CMakeFiles/cpp_cobot_planning.dir/all
-all: CMakeFiles/move_waypoints.dir/all
-all: CMakeFiles/read_joint_states.dir/all
+all: CMakeFiles/generating_waypoints.dir/all
+all: CMakeFiles/reading_joint_states.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -76,8 +76,8 @@ preinstall:
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/cpp_cobot_planning_uninstall.dir/clean
 clean: CMakeFiles/cpp_cobot_planning.dir/clean
-clean: CMakeFiles/move_waypoints.dir/clean
-clean: CMakeFiles/read_joint_states.dir/clean
+clean: CMakeFiles/generating_waypoints.dir/clean
+clean: CMakeFiles/reading_joint_states.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -159,56 +159,56 @@ CMakeFiles/cpp_cobot_planning.dir/clean:
 .PHONY : CMakeFiles/cpp_cobot_planning.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/move_waypoints.dir
+# Target rules for target CMakeFiles/generating_waypoints.dir
 
 # All Build rule for target.
-CMakeFiles/move_waypoints.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_waypoints.dir/build.make CMakeFiles/move_waypoints.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_waypoints.dir/build.make CMakeFiles/move_waypoints.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sanjay/Desktop/cobot600/build/cpp_cobot_planning/CMakeFiles --progress-num=3,4 "Built target move_waypoints"
-.PHONY : CMakeFiles/move_waypoints.dir/all
+CMakeFiles/generating_waypoints.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/generating_waypoints.dir/build.make CMakeFiles/generating_waypoints.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/generating_waypoints.dir/build.make CMakeFiles/generating_waypoints.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sanjay/Desktop/cobot600/build/cpp_cobot_planning/CMakeFiles --progress-num=3,4 "Built target generating_waypoints"
+.PHONY : CMakeFiles/generating_waypoints.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/move_waypoints.dir/rule: cmake_check_build_system
+CMakeFiles/generating_waypoints.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sanjay/Desktop/cobot600/build/cpp_cobot_planning/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/move_waypoints.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/generating_waypoints.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sanjay/Desktop/cobot600/build/cpp_cobot_planning/CMakeFiles 0
-.PHONY : CMakeFiles/move_waypoints.dir/rule
+.PHONY : CMakeFiles/generating_waypoints.dir/rule
 
 # Convenience name for target.
-move_waypoints: CMakeFiles/move_waypoints.dir/rule
-.PHONY : move_waypoints
+generating_waypoints: CMakeFiles/generating_waypoints.dir/rule
+.PHONY : generating_waypoints
 
 # clean rule for target.
-CMakeFiles/move_waypoints.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/move_waypoints.dir/build.make CMakeFiles/move_waypoints.dir/clean
-.PHONY : CMakeFiles/move_waypoints.dir/clean
+CMakeFiles/generating_waypoints.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/generating_waypoints.dir/build.make CMakeFiles/generating_waypoints.dir/clean
+.PHONY : CMakeFiles/generating_waypoints.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/read_joint_states.dir
+# Target rules for target CMakeFiles/reading_joint_states.dir
 
 # All Build rule for target.
-CMakeFiles/read_joint_states.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/read_joint_states.dir/build.make CMakeFiles/read_joint_states.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/read_joint_states.dir/build.make CMakeFiles/read_joint_states.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sanjay/Desktop/cobot600/build/cpp_cobot_planning/CMakeFiles --progress-num=5,6 "Built target read_joint_states"
-.PHONY : CMakeFiles/read_joint_states.dir/all
+CMakeFiles/reading_joint_states.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reading_joint_states.dir/build.make CMakeFiles/reading_joint_states.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reading_joint_states.dir/build.make CMakeFiles/reading_joint_states.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sanjay/Desktop/cobot600/build/cpp_cobot_planning/CMakeFiles --progress-num=5,6 "Built target reading_joint_states"
+.PHONY : CMakeFiles/reading_joint_states.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/read_joint_states.dir/rule: cmake_check_build_system
+CMakeFiles/reading_joint_states.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sanjay/Desktop/cobot600/build/cpp_cobot_planning/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/read_joint_states.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/reading_joint_states.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sanjay/Desktop/cobot600/build/cpp_cobot_planning/CMakeFiles 0
-.PHONY : CMakeFiles/read_joint_states.dir/rule
+.PHONY : CMakeFiles/reading_joint_states.dir/rule
 
 # Convenience name for target.
-read_joint_states: CMakeFiles/read_joint_states.dir/rule
-.PHONY : read_joint_states
+reading_joint_states: CMakeFiles/reading_joint_states.dir/rule
+.PHONY : reading_joint_states
 
 # clean rule for target.
-CMakeFiles/read_joint_states.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/read_joint_states.dir/build.make CMakeFiles/read_joint_states.dir/clean
-.PHONY : CMakeFiles/read_joint_states.dir/clean
+CMakeFiles/reading_joint_states.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reading_joint_states.dir/build.make CMakeFiles/reading_joint_states.dir/clean
+.PHONY : CMakeFiles/reading_joint_states.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
